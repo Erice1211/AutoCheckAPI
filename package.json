@@ -1,0 +1,21 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Cypress test project",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:dev": "cypress open --env environment=dev",
+    "cypress:open:sit": "cypress open --env environment=sit",
+    "cypress:open:local": "cypress open --env environment=local",
+    "cypress:run:dev": "cypress run --env environment=dev",
+    "cypress:run:sit": "cypress run --env environment=sit",
+    "cypress:run:local": "cypress run --env environment=local"
+  },
+  "author": "Tim",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.16.0",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "mochawesome-merge": "^4.3.0"
+  }
+}
